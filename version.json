@@ -1,5 +1,6 @@
 {
-  "version": "5.4",
-  "download": "https://github.com/abdeljalil52/CliniqueArrayane/releases/download/v5.4/CliniqueArrayane.exe",
-  "notes": "Version 5.4 de Clinique Arrayane avec améliorations et corrections."
+  "version": "5.5",
+  "download": "https://github.com/abdeljalil52/CliniqueArrayane/releases/download/v5.5/CliniqueArrayane.exe",
+  "sha256": "LE_SHA256_COMPLET_ICI",
+  "notes": "Version 5.5 de Clinique Arrayane."
 }
