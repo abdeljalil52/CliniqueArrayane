@@ -1,0 +1,70 @@
+{
+  "remote_config_enabled": true,
+  "config_revision": 1,
+  "last_config_update": "2026-08-30T20:00:00",
+  "maintenance": false,
+  "maintenance_message": "Maintenance temporaire. Merci de réessayer dans quelques minutes.",
+  "maintenance_start": "",
+  "maintenance_end": "",
+  "emergency_lock": false,
+  "emergency_message": "Application temporairement verrouillée par l'administrateur.",
+  "global_message_enabled": false,
+  "message_id": 1,
+  "message_title": "Information",
+  "global_message_type": "info",
+  "global_message": "",
+  "message_expiration": "",
+  "admin_notice": "",
+  "features": {
+    "assurance_enabled": true,
+    "cnops_enabled": true,
+    "history_enabled": true,
+    "printing_enabled": true,
+    "copy_rate_enabled": true,
+    "contact_enabled": true,
+    "help_enabled": true,
+    "new_calculation_enabled": true,
+    "read_only_mode": false,
+    "history_read_only": false,
+    "diagnostics_enabled": true
+  },
+  "rates": {
+    "cnops_hdj_rate": 90,
+    "cnops_pharmacy_rate": 100,
+    "rate_decimals": 2,
+    "max_invoice_amount": 10000000
+  },
+  "support": {
+    "support_enabled": true,
+    "support_number": "212688746612",
+    "support_message": "Bonjour, j'ai besoin d'aide avec Clinique Arrayane."
+  },
+  "ui": {
+    "footer_message": "",
+    "startup_page": "Accueil",
+    "splash_enabled": true,
+    "splash_message": "",
+    "history_max_rows": 500
+  },
+  "update": {
+    "update_enabled": true,
+    "minimum_version": "5.8",
+    "force_update": false,
+    "update_message": "Une nouvelle version de Clinique Arrayane est disponible.",
+    "update_check_interval": 60,
+    "latest_version": "5.8"
+  },
+  "security": {
+    "admin_auto_lock_minutes": 10
+  },
+  "posts": {
+    "EXEMPLE-POSTE-ID": {
+      "printing_enabled": true,
+      "read_only_mode": false
+    },
+    "RECEPTION-01": {
+      "cnops_enabled": true,
+      "assurance_enabled": true
+    }
+  }
+}
