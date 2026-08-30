@@ -1,6 +1,24 @@
 {
   "releases": [
     {
+      "version": "5.8.10",
+      "title": "Clinique Arrayane V5.8.10 PRO",
+      "date": "30/08/2026",
+      "notes": "Correctif du téléchargement des mises à jour GitHub et amélioration du diagnostic des erreurs.",
+      "changes": [
+        "Correction du message Téléchargement impossible affichant None.",
+        "Repository officiel verrouillé sur abdeljalilberrada/CliniqueArrayane.",
+        "Recherche automatique de la release par tag via l’API GitHub.",
+        "Détection automatique d’un asset .exe même si son nom diffère.",
+        "Préférence pour l’asset CliniqueArrayane.exe.",
+        "Fallback vers la dernière release GitHub.",
+        "Messages d’erreur détaillés avec code HTTP et URL en échec.",
+        "Mise à jour toujours accessible aux utilisateurs sans mot de passe Administration.",
+        "Conservation du fallback d’installation dans %LOCALAPPDATA% si le dossier de l’EXE est protégé."
+      ],
+      "details": "Pour une compatibilité maximale avec les anciennes versions, publier une vraie GitHub Release et joindre un asset Windows nommé CliniqueArrayane.exe. version.json utilise désormais releases/latest/download/CliniqueArrayane.exe."
+    },
+    {
       "version": "5.8.9",
       "title": "Clinique Arrayane V5.8.9 PRO",
       "date": "30/08/2026",
