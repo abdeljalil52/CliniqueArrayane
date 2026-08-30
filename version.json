@@ -1,5 +1,5 @@
 {
-  "version": "5.8.9",
-  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/download/v5.8.9/CliniqueArrayane.exe",
-  "notes": "V5.8.9 PRO - Mise à jour accessible à tous les utilisateurs, URL GitHub sécurisée et installation sans accès Administration."
+  "version": "5.8.10",
+  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/latest/download/CliniqueArrayane.exe",
+  "notes": "V5.8.10 PRO - Correctif téléchargement GitHub : diagnostic détaillé, détection automatique de l’asset EXE et suppression des erreurs None."
 }
