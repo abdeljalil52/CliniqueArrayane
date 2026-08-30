@@ -8,11 +8,11 @@
   "maintenance_end": "",
   "emergency_lock": false,
   "emergency_message": "Application temporairement verrouillée par l'administrateur.",
-  "global_message_enabled": true,
+  "global_message_enabled": false,
   "message_id": 1,
   "message_title": "Information",
   "global_message_type": "info",
-  "global_message": "fqssssssssss",
+  "global_message": "",
   "message_expiration": "",
   "admin_notice": "",
   "features": {
