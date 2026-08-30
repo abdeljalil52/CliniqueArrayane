@@ -1,5 +1,5 @@
 {
-  "version": "5.8.7",
-  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/download/v5.8.7/CliniqueArrayane.exe",
-  "notes": "V5.8.7 PRO - Lettres adaptées au papier pré-imprimé, sans logo, en-tête, footer ni signature imprimée."
+  "version": "5.8.8",
+  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/download/v5.8.8/CliniqueArrayane.exe",
+  "notes": "V5.8.8 PRO - Nouveau moteur de mise a jour Windows sans PowerShell, journalise et avec elevation UAC si necessaire."
 }
