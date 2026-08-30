@@ -1,42 +1,6 @@
 {
   "releases": [
     {
-      "version": "5.8.5",
-      "title": "Clinique Arrayane V5.8.5 PRO",
-      "date": "30/08/2026",
-      "notes": "Ajout d'un centre de lettres administratives avec génération PDF A4 professionnelle.",
-      "changes": [
-        "Nouvelle section LETTRES dans le menu gauche.",
-        "Accord de prise en charge non reçu.",
-        "Relance de prise en charge et demande de duplicata d'accord.",
-        "Rectification d'accord pour médicament erroné et/ou quantité erronée.",
-        "Rectification des dates DU/AU, du montant, de l'Hôpital du jour et de l'établissement.",
-        "Transmission de complément de dossier, prorogation et annulation PEC.",
-        "Formulaires simples avec date, N° PEC, N° d'immatriculation et champs spécifiques.",
-        "Génération PDF A4 avec logo, en-tête Clinique Arrayane, objet, tableau récapitulatif et zone cachet/signature.",
-        "Ouverture automatique du PDF après génération et option d'impression directe.",
-        "Les données des lettres restent localement sur le PC et ne sont pas envoyées à GitHub."
-      ],
-      "details": "Les PDF générés sont enregistrés dans %LOCALAPPDATA%\\CliniqueArrayane\\Lettres. Le module nécessite ReportLab, déjà utilisé par les fonctions PDF de l'application."
-    },
-    {
-      "version": "5.8.4",
-      "title": "Clinique Arrayane V5.8.4 PRO",
-      "date": "30/08/2026",
-      "notes": "Ajout des feuilles de maladie CNOPS et CNSS avec téléchargement GitHub et cache local.",
-      "changes": [
-        "Nouvelle section DOCUMENTS dans le menu gauche.",
-        "Accès direct à la feuille de maladie CNOPS.",
-        "Accès direct à la feuille de maladie CNSS.",
-        "Téléchargement de la dernière version PDF depuis GitHub à chaque ouverture.",
-        "Cache local automatique pour utilisation hors connexion.",
-        "Validation du PDF avant remplacement de la copie locale.",
-        "Ouverture du PDF et impression directe depuis l’application.",
-        "URLs et activation pilotables depuis remote_config.json."
-      ],
-      "details": "Les PDF sont enregistrés dans %LOCALAPPDATA%\\CliniqueArrayane\\Documents. Si GitHub est indisponible, la dernière copie locale valide est utilisée automatiquement."
-    },
-    {
       "version": "5.8.3",
       "title": "Clinique Arrayane V5.8.3 PRO",
       "date": "30/08/2026",
@@ -95,17 +59,19 @@
     {
       "version": "5.7",
       "title": "Clinique Arrayane V5.7 PRO",
-      "date": "30/08/2026",
+      "date": "29/08/2026",
       "notes": "Navigation améliorée, aide enrichie, historique avancé et branding/logo personnalisables."
     },
     {
       "version": "5.6",
       "title": "Clinique Arrayane V5.6 PRO",
+      "date": "29/08/2026",
       "notes": "Logo personnalisable, GitHub mis à jour et améliorations Administration."
     },
     {
       "version": "5.5",
       "title": "Clinique Arrayane V5.5 PRO",
+      "date": "28/08/2026",
       "notes": "Recherche Historique, maintenance, récupération crash et verrouillage Admin."
     }
   ]
