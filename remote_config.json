@@ -8,7 +8,7 @@
   "maintenance_end": "2026-08-30T18:30:00+01:00",
   "emergency_lock": false,
   "emergency_message": "Application temporairement verrouillée par l'administrateur.",
-  "global_message_enabled": false,
+  "global_message_enabled": true,
   "message_id": 1,
   "message_title": "Information",
   "global_message_type": "info",
