@@ -1,6 +1,27 @@
 {
   "releases": [
     {
+      "version": "5.8.9",
+      "title": "Clinique Arrayane V5.8.9 PRO",
+      "date": "30/08/2026",
+      "notes": "Mise à jour accessible à tous les utilisateurs et moteur d'installation renforcé.",
+      "changes": [
+        "Nouveau bouton Mise à jour accessible sans ouvrir l'Administration.",
+        "Aucun mot de passe Administration de Clinique Arrayane n'est requis pour installer une mise à jour.",
+        "Après téléchargement, l'installation est proposée directement à l'utilisateur.",
+        "Repository officiel verrouillé sur abdeljalilberrada/CliniqueArrayane.",
+        "Correction automatique d'un lien download incorrect dans version.json.",
+        "URLs de secours vers la release officielle et releases/latest.",
+        "Cache-busting de version.json pour éviter une ancienne version mise en cache.",
+        "Validation du fichier EXE téléchargé avant installation.",
+        "Remplacement direct de l'EXE quand le dossier est accessible.",
+        "Fallback automatique dans %LOCALAPPDATA%\\CliniqueArrayane\\Application si Windows protège le dossier de l'EXE.",
+        "Redirection automatique vers la version utilisateur plus récente lors des lancements suivants.",
+        "Journal détaillé des mises à jour dans Update.log."
+      ],
+      "details": "Cette version sépare complètement l'accès Administration de l'installation des mises à jour. Les utilisateurs standards peuvent rechercher, télécharger et installer une version sans connaître le mot de passe Admin de l'application."
+    },
+    {
       "version": "5.8.8",
       "title": "Clinique Arrayane V5.8.8 PRO",
       "date": "30/08/2026",
