@@ -1,7 +1,7 @@
 {
   "remote_config_enabled": true,
   "config_revision": 2,
-  "last_config_update": "2026-08-30T20:00:00",
+  "last_config_update": "2026-08-30T15:30:00+01:00",
   "maintenance": true,
   "maintenance_message": "Maintenance temporaire. Merci de réessayer dans quelques minutes.",
   "maintenance_start": "",
@@ -9,10 +9,10 @@
   "emergency_lock": false,
   "emergency_message": "Application temporairement verrouillée par l'administrateur.",
   "global_message_enabled": true,
-  "message_id": 1,
+  "message_id": 2,
   "message_title": "Information",
-  "global_message_type": "info",
-  "global_message": "hhhhhas",
+  "global_message_type": "warning",
+  "global_message": "Test GitHub : la configuration distante fonctionne correctement.",
   "message_expiration": "",
   "admin_notice": "",
   "features": {
@@ -52,7 +52,7 @@
     "force_update": false,
     "update_message": "Une nouvelle version de Clinique Arrayane est disponible.",
     "update_check_interval": 60,
-    "latest_version": "5.8"
+    "latest_version": "5.8.2"
   },
   "security": {
     "admin_auto_lock_minutes": 10
