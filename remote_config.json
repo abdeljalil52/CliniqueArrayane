@@ -68,7 +68,7 @@
     }
   },
   "documents": {
-    "cnops_sheet_enabled": false,
+    "cnops_sheet_enabled": true,
     "cnops_sheet_name": "Feuille de maladie CNOPS",
     "cnops_sheet_url": "https://raw.githubusercontent.com/abdeljalilberrada/CliniqueArrayane/main/documents/feuille_Maladie_CNOPS.pdf",
     "cnss_sheet_enabled": true,
