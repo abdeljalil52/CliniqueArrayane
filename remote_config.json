@@ -2,7 +2,7 @@
   "remote_config_enabled": true,
   "config_revision": 1,
   "last_config_update": "2026-08-30T20:00:00",
-  "maintenance": false,
+  "maintenance": true,
   "maintenance_message": "Maintenance temporaire. Merci de réessayer dans quelques minutes.",
   "maintenance_start": "",
   "maintenance_end": "",
