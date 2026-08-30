@@ -1,9 +1,14 @@
 {
   "releases": [
     {
-      "version": "5.8s",
-      "title": "Clinique Arrayane V5.8 PROs",
-      "notes": "Contrôle distant GitHub, Historique avancé, favoris, exports PDF/CSV, rapports, dashboard, rôles, diagnostics et Administration optimisée.s"
+      "version": "5.8.2",
+      "title": "Clinique Arrayane V5.8.2 PRO",
+      "notes": "Correction complète du contrôle distant GitHub, maintenance distante, verrouillage d'urgence, messages globaux et synchronisation anti-cache."
+    },
+    {
+      "version": "5.8.1",
+      "title": "Clinique Arrayane V5.8.1 PRO",
+      "notes": "Amélioration de la stabilité Tkinter sous Python 3.14, correction de la fermeture, des timers, de l'horloge et des callbacks différés."
     },
     {
       "version": "5.8",
@@ -14,6 +19,16 @@
       "version": "5.7",
       "title": "Clinique Arrayane V5.7 PRO",
       "notes": "Navigation améliorée, aide complète, branding et logo personnalisables."
+    },
+    {
+      "version": "5.6",
+      "title": "V5.6 PRO",
+      "notes": "Logo personnalisable, GitHub mis à jour et améliorations Administration."
+    },
+    {
+      "version": "5.5",
+      "title": "V5.5 PRO",
+      "notes": "Recherche Historique, maintenance, récupération crash et verrouillage Admin."
     }
   ]
 }
