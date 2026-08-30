@@ -1,6 +1,6 @@
 {
   "remote_config_enabled": true,
-  "config_revision": 1,
+  "config_revision": 2,
   "last_config_update": "2026-08-30T20:00:00",
   "maintenance": false,
   "maintenance_message": "Maintenance temporaire. Merci de réessayer dans quelques minutes.",
@@ -52,7 +52,7 @@
     "force_update": false,
     "update_message": "Une nouvelle version de Clinique Arrayane est disponible.",
     "update_check_interval": 60,
-    "latest_version": "5.8"
+    "latest_version": "5.8.4"
   },
   "security": {
     "admin_auto_lock_minutes": 10
@@ -66,5 +66,13 @@
       "cnops_enabled": true,
       "assurance_enabled": true
     }
+  },
+  "documents": {
+    "cnops_sheet_enabled": true,
+    "cnops_sheet_name": "Feuille de maladie CNOPS",
+    "cnops_sheet_url": "https://raw.githubusercontent.com/abdeljalilberrada/CliniqueArrayane/main/documents/feuille_Maladie_CNOPS.pdf",
+    "cnss_sheet_enabled": true,
+    "cnss_sheet_name": "Feuille de maladie CNSS",
+    "cnss_sheet_url": "https://raw.githubusercontent.com/abdeljalilberrada/CliniqueArrayane/main/documents/feuille_Maladie_CNSS.pdf"
   }
 }
