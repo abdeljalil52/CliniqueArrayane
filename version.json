@@ -1,5 +1,5 @@
 {
   "version": "5.8.10",
-  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/latest/download/CliniqueArrayane.exe",
-  "notes": "V5.8.10 PRO - Correctif téléchargement GitHub : diagnostic détaillé, détection automatique de l’asset EXE et suppression des erreurs None."
+  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/download/V5.8.10/CliniqueArrayane.exe",
+  "notes": "V5.8.10 PRO - Correctif du système de mise à jour GitHub."
 }
