@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "version": "5.8s",
+      "title": "Clinique Arrayane V5.8 PROs",
+      "notes": "Contrôle distant GitHub, Historique avancé, favoris, exports PDF/CSV, rapports, dashboard, rôles, diagnostics et Administration optimisée.s"
+    },
+    {
       "version": "5.8",
       "title": "Clinique Arrayane V5.8 PRO",
       "notes": "Contrôle distant GitHub, Historique avancé, favoris, exports PDF/CSV, rapports, dashboard, rôles, diagnostics et Administration optimisée."
