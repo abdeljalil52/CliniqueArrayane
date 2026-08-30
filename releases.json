@@ -1,33 +1,77 @@
 {
   "releases": [
     {
+      "version": "5.8.3",
+      "title": "Clinique Arrayane V5.8.3 PRO",
+      "date": "30/08/2026",
+      "notes": "Page Nouveautés modernisée et directement synchronisable avec GitHub.",
+      "changes": [
+        "Bouton Actualiser depuis GitHub avec retour visuel immédiat.",
+        "Affichage de la date et heure de dernière synchronisation.",
+        "Badge VERSION ACTUELLE sur la version installée.",
+        "Cartes de version plus claires avec liste d'améliorations.",
+        "Support du champ changes dans releases.json.",
+        "Bouton Voir les détails pour les notes longues.",
+        "Rafraîchissement de la page sans redémarrer l'application."
+      ],
+      "details": "Cette version améliore uniquement la présentation et la synchronisation de la page Nouveautés. Les notes peuvent maintenant être pilotées depuis GitHub sans modifier le fichier Python."
+    },
+    {
       "version": "5.8.2",
       "title": "Clinique Arrayane V5.8.2 PRO",
-      "notes": "Correction complète du contrôle distant GitHub, maintenance distante, verrouillage d'urgence, messages globaux et synchronisation anti-cache."
+      "date": "30/08/2026",
+      "notes": "Correctif du contrôle distant GitHub.",
+      "changes": [
+        "Maintenance distante corrigée.",
+        "Emergency Lock appliqué immédiatement.",
+        "Messages globaux corrigés.",
+        "Synchronisation GitHub avec anti-cache.",
+        "Détection des changements même sans nouvelle config_revision."
+      ]
     },
     {
       "version": "5.8.1",
       "title": "Clinique Arrayane V5.8.1 PRO",
-      "notes": "Amélioration de la stabilité Tkinter sous Python 3.14, correction de la fermeture, des timers, de l'horloge et des callbacks différés."
+      "date": "30/08/2026",
+      "notes": "Stabilité Tkinter renforcée, notamment sous Python 3.14.",
+      "changes": [
+        "Fermeture propre de l'application.",
+        "Timers Tkinter sécurisés.",
+        "Horloge et callbacks différés protégés."
+      ]
     },
     {
       "version": "5.8",
       "title": "Clinique Arrayane V5.8 PRO",
-      "notes": "Contrôle distant GitHub, Historique avancé, favoris, exports PDF/CSV, rapports, dashboard, rôles, diagnostics et Administration optimisée."
+      "date": "30/08/2026",
+      "notes": "Grande évolution fonctionnelle et administrative.",
+      "changes": [
+        "Contrôle distant GitHub, messages globaux et maintenance globale.",
+        "Configuration par poste et cache hors connexion.",
+        "Historique avancé, favoris, détails, modification et suppression protégées.",
+        "Exports PDF/CSV et rapport mensuel.",
+        "Dashboard amélioré et graphique des 7 derniers jours.",
+        "Plein écran, validation visuelle et formatage automatique.",
+        "Thème Windows automatique et couleur personnalisée.",
+        "Branding avancé, rôles Responsable/Admin et diagnostic complet."
+      ]
     },
     {
       "version": "5.7",
       "title": "Clinique Arrayane V5.7 PRO",
-      "notes": "Navigation améliorée, aide complète, branding et logo personnalisables."
+      "date": "30/08/2026",
+      "notes": "Navigation améliorée, aide enrichie, historique avancé et branding/logo personnalisables."
     },
     {
       "version": "5.6",
-      "title": "V5.6 PRO",
+      "title": "Clinique Arrayane V5.6 PRO",
+      "date": "29/08/2026",
       "notes": "Logo personnalisable, GitHub mis à jour et améliorations Administration."
     },
     {
       "version": "5.5",
-      "title": "V5.5 PRO",
+      "title": "Clinique Arrayane V5.5 PRO",
+      "date": "28/08/2026",
       "notes": "Recherche Historique, maintenance, récupération crash et verrouillage Admin."
     }
   ]
