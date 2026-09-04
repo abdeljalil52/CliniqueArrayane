@@ -1,6 +1,6 @@
 # Clinique Arrayane
 
-Application Windows interne de gestion, d'assistance administrative et d'outils de travail pour **Clinique Arrayane**.
+Application Windows interne conçue pour simplifier le travail administratif, centraliser les outils utiles et assister les postes de travail de **Clinique Arrayane**.
 
 **Développeur : Abdeljalil Berrada**  
 **Plateforme : Windows 10 / Windows 11**  
@@ -10,11 +10,11 @@ Application Windows interne de gestion, d'assistance administrative et d'outils 
 
 ## À propos
 
-Clinique Arrayane est une application conçue pour simplifier les tâches administratives répétitives, centraliser les outils utiles et améliorer le confort de travail sur les postes de la clinique.
+Clinique Arrayane regroupe dans une seule interface les fonctions administratives et techniques utilisées au quotidien dans la clinique.
 
-L'application complète les logiciels métier déjà utilisés dans la clinique. Elle n'a pas pour objectif de remplacer un dossier patient ou un système hospitalier principal.
+L'application complète les logiciels métier déjà présents. Elle n'a pas pour objectif de remplacer le système principal de gestion des patients ou les logiciels hospitaliers existants.
 
-Ce fichier `README.md` est volontairement **indépendant des numéros de version**. Il décrit le projet de manière permanente et n'a pas besoin d'être modifié à chaque mise à jour. Les informations de version et les changements sont gérés séparément dans `version.json` et `releases.json`.
+Ce `README.md` est volontairement **permanent et indépendant des numéros de version**. Il n'a pas besoin d'être modifié après chaque mise à jour. Les informations de version sont gérées séparément dans `version.json` et `releases.json`.
 
 ---
 
@@ -22,25 +22,25 @@ Ce fichier `README.md` est volontairement **indépendant des numéros de version
 
 ### Tableau de bord
 
-- Vue rapide de l'activité récente
-- Nombre de calculs
+- Vue rapide de l'activité
+- Calculs du jour
 - Totaux facturés, accordés et patient
-- Résumé du mois
+- Résumé mensuel
 - Dernier calcul
-- Accès rapide aux fonctions principales
+- Actions rapides
 - État du poste et de l'application
 
-### Calculs Assurances
+### Assurances
 
-- Saisie du montant total
-- Saisie du montant accordé
-- Calcul automatique du reste patient
-- Calcul automatique du taux de prise en charge
+- Montant total
+- Montant accordé
+- Reste patient automatique
+- Taux de prise en charge automatique
 - Copie rapide du taux
-- Enregistrement dans l'historique
+- Historique automatique
 - Impression du résultat
 
-### Calculs CNOPS
+### CNOPS
 
 - Montant Hôpital du jour
 - Montant Pharmacie
@@ -52,9 +52,8 @@ Ce fichier `README.md` est volontairement **indépendant des numéros de version
 
 ### Historique
 
-- Consultation des calculs enregistrés
 - Recherche instantanée
-- Filtres par date, type, total et taux
+- Filtres par période, type, montant et taux
 - Favoris
 - Détails d'un calcul
 - Modification selon les droits
@@ -62,52 +61,50 @@ Ce fichier `README.md` est volontairement **indépendant des numéros de version
 - Export CSV
 - Export PDF
 - Rapport mensuel
-- Sauvegardes avant opérations sensibles
+- Sauvegardes locales
 
 ### Documents
-
-Accès rapide aux documents administratifs utiles, notamment :
 
 - Feuille de maladie CNOPS
 - Feuille de maladie CNSS
 - Ouverture manuelle
 - Impression directe
-- Copie locale de secours
-- Fonctionnement avec cache local si Internet est indisponible
+- Cache local hors connexion
+- Mise à jour distante des documents
 
 ### Lettres administratives
 
-Centre de génération de lettres avec plusieurs modèles, notamment :
+Le centre de lettres comprend notamment :
 
 - Accord non reçu
-- Relance de prise en charge
+- Relance PEC
 - Duplicata d'accord
 - Rectification médicament
 - Rectification quantité
-- Médicament et quantité
-- Rectification de dates
-- Rectification de montant
+- Médicament + quantité
+- Rectification des dates DU/AU
+- Rectification du montant
 - Hôpital du jour
-- Rectification d'établissement
+- Rectification établissement
 - Complément de dossier
 - Prorogation
-- Annulation de prise en charge
+- Annulation PEC
 - Réexamen après refus
 - Demande urgente
 - Lettre personnalisée
 
-Les lettres sont prévues pour être imprimées sur le papier pré-imprimé de la clinique. Le PDF généré reste volontairement sobre et ne rajoute pas de logo, d'en-tête, de pied de page logiciel ou de zone de cachet inutile.
+Les PDF sont adaptés au papier pré-imprimé de la clinique : pas de logo logiciel, pas d'en-tête ajouté, pas de footer logiciel et pas de zone de cachet imprimée.
 
 ### Optimisation PC
 
-Une section dédiée permet d'accéder à **Enterprise PC Optimizer Pro**, un outil Windows de diagnostic, maintenance et optimisation des postes de travail.
+Une section dédiée donne accès à l'outil **Enterprise PC Optimizer Pro** pour le diagnostic, l'entretien et l'optimisation des postes Windows.
 
-Fonctions disponibles selon l'outil installé :
+Fonctions possibles selon la version de l'outil :
 
 - Diagnostic du PC
 - Analyse CPU, RAM et stockage
 - Analyse d'utilisation disque élevée
-- Nettoyage de fichiers temporaires et caches
+- Nettoyage des fichiers temporaires et caches
 - Vérifications de santé Windows
 - Maintenance SSD / HDD
 - Maintenance Windows Update
@@ -118,50 +115,48 @@ Fonctions disponibles selon l'outil installé :
 - Rapports techniques
 - Sauvegarde et restauration
 
-Certaines opérations système peuvent demander des droits Administrateur Windows.
+Certaines opérations système peuvent demander les droits Administrateur Windows.
 
-### Contact et assistance
+### Assistance
 
-- Accès rapide au support
-- Message prérempli
-- Informations techniques utiles
 - Aide rapide intégrée
-- FAQ et procédures de dépannage
+- Contact / Support
+- Informations techniques utiles
+- Procédures de dépannage
 
 ### Nouveautés
 
-La page Nouveautés affiche l'historique des versions et les changements publiés dans `releases.json`.
+La page **Nouveautés** affiche les changements publiés dans `releases.json`.
 
 ### Mise à jour
 
 L'application peut :
 
-- Vérifier la disponibilité d'une nouvelle version
-- Télécharger une nouvelle version officielle
-- Proposer l'installation sans demander le mot de passe Administration de l'application
-- Redémarrer après installation
-- Utiliser un emplacement utilisateur si le dossier courant est protégé par Windows
+- Vérifier une nouvelle version
+- Télécharger la version officielle
+- Proposer l'installation sans mot de passe Administration de l'application
+- Redémarrer automatiquement après installation
+- Utiliser un emplacement utilisateur si le dossier courant est protégé
 - Conserver un journal de mise à jour pour le diagnostic
 
-La source technique du téléchargement n'est pas affichée dans l'interface utilisateur.
+La source technique des téléchargements n'est pas affichée dans l'interface utilisateur.
 
 ---
 
 ## Interface
 
-L'interface est conçue pour être claire sur les postes administratifs :
-
-- Thème sombre ou clair
+- Design sombre professionnel
+- Thème clair disponible
 - Couleur principale configurable
-- Menu latéral professionnel
-- Menu latéral avec défilement
+- Menu latéral scrollable
 - Logo personnalisable
+- Logo sidebar optimisé à 80 px
+- Sélection active clairement visible
 - Mode compact
 - Taille de texte configurable
 - Plein écran
-- Indicateur de page active
-- Raccourcis clavier
 - Notifications discrètes
+- Compatible clavier AZERTY et QWERTY
 
 ---
 
@@ -188,13 +183,11 @@ L'interface est conçue pour être claire sur les postes administratifs :
 | `F11` | Plein écran |
 | `Échap` | Quitter le plein écran |
 
-Les raccourcis numériques sont prévus pour les claviers AZERTY et QWERTY.
-
 ---
 
 ## Administration
 
-L'espace Administration permet de gérer les paramètres avancés de l'application :
+L'espace Administration permet de gérer :
 
 - Identité et branding
 - Logo
@@ -207,7 +200,7 @@ L'espace Administration permet de gérer les paramètres avancés de l'applicati
 - Sécurité
 - Maintenance
 - Sauvegardes
-- Configuration distante
+- Synchronisation distante
 - Diagnostic
 - Mises à jour
 
@@ -217,34 +210,18 @@ L'accès Administration est protégé par mot de passe et peut se reverrouiller 
 
 ## Sécurité et confidentialité
 
-- Les calculs et données locales restent sur le poste sauf fonction explicitement distante.
-- Aucun mot de passe ou secret ne doit être stocké dans des fichiers publics.
-- Les données médicales sensibles et dossiers patients complets doivent rester dans les systèmes métier autorisés de la clinique.
-- Les identifiants techniques distants ne sont pas affichés aux utilisateurs standards.
-- Les opérations sensibles sont protégées par les droits Responsable / Administrateur lorsque nécessaire.
-- Les mises à jour de l'application restent accessibles sans communiquer le mot de passe Administrateur de Clinique Arrayane aux utilisateurs.
-
----
-
-## Fonctionnement hors connexion
-
-La majorité des fonctions principales restent disponibles sans Internet :
-
-- Calculs
-- Historique
-- Documents déjà mis en cache
-- Lettres
-- Impression locale
-- Paramètres
-- Outils locaux déjà téléchargés
-
-Les fonctions nécessitant un téléchargement, une synchronisation distante ou une mise à jour attendent simplement le retour de la connexion.
+- Les calculs restent locaux sauf fonction explicitement distante.
+- Les lettres et documents générés restent sur le poste.
+- Les mots de passe ne doivent jamais être placés dans les fichiers publics de configuration.
+- Les fichiers distants ne doivent contenir aucune donnée patient.
+- L'application continue à fonctionner localement lorsqu'Internet est indisponible pour les fonctions qui ne nécessitent pas de connexion.
+- Les opérations sensibles sont protégées par les rôles et confirmations prévus dans l'application.
 
 ---
 
 ## Données locales
 
-Les fichiers locaux de l'application sont enregistrés principalement dans :
+Les données de l'application sont principalement enregistrées dans :
 
 ```text
 %LOCALAPPDATA%\CliniqueArrayane
@@ -258,8 +235,6 @@ Historique_Calculs.csv
 Dernier_Calcul.json
 Journal_Erreurs.log
 Update.log
-Journal_Admin.jsonl
-Diagnostic_CliniqueArrayane.txt
 Backups\
 Documents\
 Lettres\
@@ -271,7 +246,14 @@ assets\
 
 ## Configuration distante
 
-L'application peut utiliser des fichiers de configuration distants afin de gérer certains paramètres sans modifier l'exécutable :
+L'application peut utiliser plusieurs fichiers de configuration distants :
+
+- `version.json` : version publiée et téléchargement
+- `releases.json` : historique des nouveautés
+- `remote_config.json` : règles opérationnelles distantes
+- `branding.json` : identité et apparence
+
+Le système distant peut notamment gérer :
 
 - Maintenance globale
 - Verrouillage d'urgence
@@ -283,11 +265,11 @@ L'application peut utiliser des fichiers de configuration distants afin de gére
 - Branding
 - Version minimale prise en charge
 
-En cas d'indisponibilité du service distant, l'application privilégie le fonctionnement local et le cache disponible.
+En cas d'indisponibilité du service distant, l'application privilégie le fonctionnement local et les caches disponibles.
 
 ---
 
-## Fichiers de publication
+## Fichiers du projet
 
 ### `README.md`
 
@@ -296,27 +278,27 @@ Description permanente du projet.
 
 ### `version.json`
 
-Contient les informations nécessaires à la détection de la version actuellement publiée.
-
-Il est mis à jour lorsqu'une nouvelle version est publiée.
+Contient la version actuellement publiée et l'adresse de téléchargement officielle.
 
 ### `releases.json`
 
-Contient l'historique visible dans la page **Nouveautés**.
-
-Il est mis à jour lorsqu'une nouvelle version doit apparaître dans l'historique.
+Contient l'historique affiché dans la page **Nouveautés**.
 
 ### `remote_config.json`
 
-Contient uniquement les réglages distants opérationnels. Il n'est modifié que lorsqu'un comportement distant doit changer.
+Contient les réglages distants opérationnels.
 
 ### `branding.json`
 
-Peut être utilisé pour certains réglages d'identité et d'apparence à distance.
+Contient les réglages distants d'identité et d'apparence.
+
+### `requirements.txt`
+
+Contient les dépendances Python nécessaires au développement et à la compilation.
 
 ---
 
-## Installation
+## Installation utilisateur
 
 L'application est distribuée sous forme d'un exécutable Windows :
 
@@ -324,27 +306,25 @@ L'application est distribuée sous forme d'un exécutable Windows :
 CliniqueArrayane.exe
 ```
 
-Aucune installation Python n'est nécessaire pour l'utilisateur final.
-
-Lors d'une première installation manuelle, il suffit de placer l'exécutable dans un emplacement adapté puis de le lancer.
+L'utilisateur final n'a pas besoin d'installer Python, Pillow ou ReportLab lorsque l'exécutable a été correctement compilé.
 
 ---
 
 ## Compilation développeur
 
-Dépendances principales :
+Installation des dépendances :
 
 ```bat
-py -m pip install pillow reportlab pyinstaller
+py -m pip install -r requirements.txt
 ```
 
-Compilation :
+Compilation recommandée :
 
 ```bat
-py -m PyInstaller --clean --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --name CliniqueArrayane a.py
+py -m PyInstaller --clean --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --collect-all reportlab --name CliniqueArrayane a.py
 ```
 
-L'exécutable est généré dans :
+L'exécutable final est généré dans :
 
 ```text
 dist\CliniqueArrayane.exe
@@ -361,15 +341,16 @@ Certaines fonctions de maintenance système peuvent demander les droits Administ
 
 ---
 
-## Organisation du projet
+## Organisation recommandée
 
 ```text
 CliniqueArrayane/
 ├── README.md
-├── version.json
+├── branding.json
 ├── releases.json
 ├── remote_config.json
-├── branding.json
+├── requirements.txt
+├── version.json
 ├── documents/
 │   ├── feuille_Maladie_CNOPS.pdf
 │   └── feuille_Maladie_CNSS.pdf
@@ -381,15 +362,9 @@ CliniqueArrayane/
 
 ## Règle de publication
 
-Pour une nouvelle version :
+Le `README.md` reste inchangé.
 
-1. Compiler `CliniqueArrayane.exe`.
-2. Publier la nouvelle version avec le bon numéro de version.
-3. Mettre à jour `version.json`.
-4. Ajouter la nouvelle entrée dans `releases.json` si elle doit apparaître dans Nouveautés.
-5. Modifier `remote_config.json` uniquement si un comportement distant doit changer.
-
-**Le README reste inchangé.**
+Pour une nouvelle version, seuls les fichiers nécessaires à la publication ou au comportement distant doivent être modifiés, principalement `version.json`, `releases.json` et éventuellement `remote_config.json` / `branding.json`.
 
 ---
 

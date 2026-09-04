@@ -1,32 +1,202 @@
 {
   "releases": [
     {
+      "version": "5.8.19",
+      "title": "Clinique Arrayane V5.8.19 PRO",
+      "date": "04/09/2026",
+      "notes": "Intégration des outils de maintenance PC et amélioration générale de l'interface.",
+      "changes": [
+        "Nouvelle section Outils PC avec accès à Enterprise PC Optimizer Pro.",
+        "Diagnostic rapide du poste avant ouverture de l'outil de maintenance.",
+        "Téléchargement et lancement de l'outil directement depuis l'application.",
+        "Menu latéral scrollable et organisation visuelle améliorée.",
+        "Sources techniques masquées dans l'interface utilisateur.",
+        "Logo de la sidebar réglé à 80 px.",
+        "Raccourcis clavier renforcés pour les claviers AZERTY et QWERTY.",
+        "Amélioration des raccourcis Windows et de l'identité visuelle."
+      ]
+    },
+    {
+      "version": "5.8.18",
+      "title": "Clinique Arrayane V5.8.18 PRO",
+      "date": "04/09/2026",
+      "notes": "Correction des raccourcis et réglage du logo.",
+      "changes": [
+        "Logo sidebar à 80 px.",
+        "Raccourcis numériques compatibles AZERTY et QWERTY.",
+        "Amélioration des raccourcis Bureau et Menu Démarrer."
+      ]
+    },
+    {
+      "version": "5.8.17",
+      "title": "Clinique Arrayane V5.8.17 PRO",
+      "date": "04/09/2026",
+      "notes": "Ajustement visuel du logo.",
+      "changes": [
+        "Logo légèrement agrandi tout en conservant le correctif anti-affichage géant."
+      ]
+    },
+    {
+      "version": "5.8.16",
+      "title": "Clinique Arrayane V5.8.16 PRO",
+      "date": "04/09/2026",
+      "notes": "Correction définitive du rendu du logo.",
+      "changes": [
+        "Redimensionnement du logo même sans Pillow.",
+        "Protection contre l'affichage du PNG à sa taille d'origine."
+      ]
+    },
+    {
+      "version": "5.8.15",
+      "title": "Clinique Arrayane V5.8.15 PRO",
+      "date": "04/09/2026",
+      "notes": "Réduction et sécurisation de la taille du logo.",
+      "changes": [
+        "Limitation stricte de la taille du logo dans la sidebar."
+      ]
+    },
+    {
+      "version": "5.8.14",
+      "title": "Clinique Arrayane V5.8.14 PRO",
+      "date": "04/09/2026",
+      "notes": "Amélioration de la taille du logo dans le menu.",
+      "changes": [
+        "Correction des anciennes valeurs de taille enregistrées.",
+        "Protection contre les tailles distantes excessives."
+      ]
+    },
+    {
+      "version": "5.8.13",
+      "title": "Clinique Arrayane V5.8.13 PRO",
+      "date": "04/09/2026",
+      "notes": "Gestion centralisée des assets visuels.",
+      "changes": [
+        "Logo distant avec cache local.",
+        "Icône distante avec cache local.",
+        "Conservation de la transparence du logo."
+      ]
+    },
+    {
+      "version": "5.8.12",
+      "title": "Clinique Arrayane V5.8.12 PRO",
+      "date": "04/09/2026",
+      "notes": "Fiabilisation du logo de l'application.",
+      "changes": [
+        "Possibilité d'embarquer le logo directement dans l'application.",
+        "Fallback local si la source distante est indisponible."
+      ]
+    },
+    {
+      "version": "5.8.11",
+      "title": "Clinique Arrayane V5.8.11 PRO",
+      "date": "04/09/2026",
+      "notes": "Amélioration des mises à jour et des raccourcis Windows.",
+      "changes": [
+        "Installation de mise à jour accessible sans mot de passe Administration.",
+        "Mise à jour des raccourcis Windows après installation.",
+        "Correction des tags de publication avec V majuscule."
+      ]
+    },
+    {
+      "version": "5.8.10",
+      "title": "Clinique Arrayane V5.8.10 PRO",
+      "date": "30/08/2026",
+      "notes": "Correction du téléchargement des mises à jour.",
+      "changes": [
+        "Diagnostic détaillé des erreurs de téléchargement.",
+        "Correction du format des liens de release.",
+        "Fallbacks de téléchargement améliorés."
+      ]
+    },
+    {
+      "version": "5.8.9",
+      "title": "Clinique Arrayane V5.8.9 PRO",
+      "date": "30/08/2026",
+      "notes": "Mise à jour publique accessible à tous les utilisateurs.",
+      "changes": [
+        "Installation sans mot de passe Administration de l'application.",
+        "Bouton Mise à jour public.",
+        "Fallback d'installation dans le profil utilisateur si le dossier courant est protégé."
+      ]
+    },
+    {
+      "version": "5.8.8",
+      "title": "Clinique Arrayane V5.8.8 PRO",
+      "date": "30/08/2026",
+      "notes": "Nouvel installateur de mise à jour plus robuste.",
+      "changes": [
+        "Remplacement de l'ancien mécanisme d'installation.",
+        "Sauvegarde avant remplacement de l'EXE.",
+        "Journal Update.log amélioré."
+      ]
+    },
+    {
+      "version": "5.8.7",
+      "title": "Clinique Arrayane V5.8.7 PRO",
+      "date": "30/08/2026",
+      "notes": "Lettres adaptées au papier pré-imprimé de la clinique.",
+      "changes": [
+        "Suppression du logo, en-tête et footer dans les lettres.",
+        "Suppression de la mention Cachet et signature.",
+        "Marges adaptées au papier officiel."
+      ]
+    },
+    {
+      "version": "5.8.6",
+      "title": "Clinique Arrayane V5.8.6 PRO",
+      "date": "30/08/2026",
+      "notes": "Correction et extension complète du module Lettres.",
+      "changes": [
+        "Correction du formulaire des lettres.",
+        "Ajout de 16 modèles administratifs.",
+        "Rectifications médicament, quantité, dates et montant."
+      ]
+    },
+    {
+      "version": "5.8.5",
+      "title": "Clinique Arrayane V5.8.5 PRO",
+      "date": "30/08/2026",
+      "notes": "Ajout du centre de lettres administratives.",
+      "changes": [
+        "Nouvelle section Lettres.",
+        "Génération de PDF A4.",
+        "Modèles PEC, relances, rectifications et demandes administratives."
+      ]
+    },
+    {
+      "version": "5.8.4",
+      "title": "Clinique Arrayane V5.8.4 PRO",
+      "date": "30/08/2026",
+      "notes": "Ajout des feuilles de maladie CNOPS et CNSS.",
+      "changes": [
+        "Nouvelle section Documents.",
+        "Ouverture manuelle des feuilles.",
+        "Impression directe.",
+        "Cache local hors connexion."
+      ]
+    },
+    {
       "version": "5.8.3",
       "title": "Clinique Arrayane V5.8.3 PRO",
       "date": "30/08/2026",
-      "notes": "Page Nouveautés modernisée et directement synchronisable avec GitHub.",
+      "notes": "Page Nouveautés modernisée et synchronisable avec le service distant.",
       "changes": [
-        "Bouton Actualiser depuis GitHub avec retour visuel immédiat.",
-        "Affichage de la date et heure de dernière synchronisation.",
-        "Badge VERSION ACTUELLE sur la version installée.",
-        "Cartes de version plus claires avec liste d'améliorations.",
-        "Support du champ changes dans releases.json.",
-        "Bouton Voir les détails pour les notes longues.",
-        "Rafraîchissement de la page sans redémarrer l'application."
-      ],
-      "details": "Cette version améliore uniquement la présentation et la synchronisation de la page Nouveautés. Les notes peuvent maintenant être pilotées depuis GitHub sans modifier le fichier Python."
+        "Actualisation sans redémarrage.",
+        "Date de dernière synchronisation.",
+        "Badge VERSION ACTUELLE.",
+        "Cartes de versions améliorées."
+      ]
     },
     {
       "version": "5.8.2",
       "title": "Clinique Arrayane V5.8.2 PRO",
       "date": "30/08/2026",
-      "notes": "Correctif du contrôle distant GitHub.",
+      "notes": "Correctif du contrôle distant.",
       "changes": [
         "Maintenance distante corrigée.",
-        "Emergency Lock appliqué immédiatement.",
+        "Verrouillage d'urgence appliqué immédiatement.",
         "Messages globaux corrigés.",
-        "Synchronisation GitHub avec anti-cache.",
-        "Détection des changements même sans nouvelle config_revision."
+        "Anti-cache renforcé."
       ]
     },
     {
@@ -46,31 +216,36 @@
       "date": "30/08/2026",
       "notes": "Grande évolution fonctionnelle et administrative.",
       "changes": [
-        "Contrôle distant GitHub, messages globaux et maintenance globale.",
-        "Configuration par poste et cache hors connexion.",
-        "Historique avancé, favoris, détails, modification et suppression protégées.",
+        "Contrôle distant et cache hors connexion.",
+        "Historique avancé, favoris et détails.",
         "Exports PDF/CSV et rapport mensuel.",
-        "Dashboard amélioré et graphique des 7 derniers jours.",
-        "Plein écran, validation visuelle et formatage automatique.",
-        "Thème Windows automatique et couleur personnalisée.",
-        "Branding avancé, rôles Responsable/Admin et diagnostic complet."
+        "Dashboard amélioré.",
+        "Rôles Responsable/Admin et diagnostic complet."
       ]
     },
     {
       "version": "5.7",
       "title": "Clinique Arrayane V5.7 PRO",
       "date": "30/08/2026",
-      "notes": "Navigation améliorée, aide enrichie, historique avancé et branding/logo personnalisables."
+      "notes": "Navigation améliorée, aide enrichie, historique avancé et branding personnalisable."
     },
     {
       "version": "5.6",
       "title": "Clinique Arrayane V5.6 PRO",
-      "notes": "Logo personnalisable, GitHub mis à jour et améliorations Administration."
+      "date": "30/08/2026",
+      "notes": "Logo personnalisable et améliorations Administration."
     },
     {
       "version": "5.5",
       "title": "Clinique Arrayane V5.5 PRO",
+      "date": "28/08/2026",
       "notes": "Recherche Historique, maintenance, récupération crash et verrouillage Admin."
+    },
+    {
+      "version": "5.4",
+      "title": "Clinique Arrayane V5.4 PRO",
+      "date": "28/08/2026",
+      "notes": "Base stable du système de mise à jour et améliorations générales."
     }
   ]
 }
