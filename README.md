@@ -1,266 +1,256 @@
 # Clinique Arrayane
 
-Application Windows de support administratif développée pour **Clinique Arrayane**.
+Application Windows interne de gestion, d'assistance administrative et d'outils de travail pour **Clinique Arrayane**.
 
-**Version actuelle : V5.8.7 PRO**  
-**Développeur : Abdeljalil Berrada**
-
----
-
-## Présentation
-
-**Clinique Arrayane** est une application desktop Windows conçue pour compléter le logiciel de gestion principal de la clinique avec des outils rapides et pratiques :
-
-- calculs de prise en charge ;
-- calcul CNOPS ;
-- historique des calculs ;
-- génération de lettres administratives en PDF ;
-- accès aux feuilles de maladie CNOPS et CNSS ;
-- impression ;
-- contrôle distant via GitHub ;
-- système de mises à jour ;
-- personnalisation de l'interface ;
-- outils d'administration et de diagnostic.
-
-L'application est principalement destinée à un usage interne.
+**Développeur : Abdeljalil Berrada**  
+**Plateforme : Windows 10 / Windows 11**  
+**Type : application desktop interne**
 
 ---
 
-## Fonctionnalités principales
+## À propos
 
-### Calcul Assurance
+Clinique Arrayane est une application conçue pour simplifier les tâches administratives répétitives, centraliser les outils utiles et améliorer le confort de travail sur les postes de la clinique.
 
-Permet de calculer rapidement :
+L'application complète les logiciels métier déjà utilisés dans la clinique. Elle n'a pas pour objectif de remplacer un dossier patient ou un système hospitalier principal.
 
-- le montant accordé ;
-- le montant restant à la charge du patient ;
-- le taux de prise en charge.
+Ce fichier `README.md` est volontairement **indépendant des numéros de version**. Il décrit le projet de manière permanente et n'a pas besoin d'être modifié à chaque mise à jour. Les informations de version et les changements sont gérés séparément dans `version.json` et `releases.json`.
 
-### Calcul CNOPS
+---
 
-Calcul séparé pour :
+## Fonctions principales
 
-- Hôpital du jour ;
-- Pharmacie ;
-- montant total ;
-- montant accordé ;
-- reste patient ;
-- taux final.
+### Tableau de bord
 
-Les taux CNOPS peuvent être configurés.
+- Vue rapide de l'activité récente
+- Nombre de calculs
+- Totaux facturés, accordés et patient
+- Résumé du mois
+- Dernier calcul
+- Accès rapide aux fonctions principales
+- État du poste et de l'application
+
+### Calculs Assurances
+
+- Saisie du montant total
+- Saisie du montant accordé
+- Calcul automatique du reste patient
+- Calcul automatique du taux de prise en charge
+- Copie rapide du taux
+- Enregistrement dans l'historique
+- Impression du résultat
+
+### Calculs CNOPS
+
+- Montant Hôpital du jour
+- Montant Pharmacie
+- Taux configurables
+- Calcul automatique du montant accordé
+- Calcul du reste patient
+- Calcul du taux global
+- Historique et impression
 
 ### Historique
 
-L'application conserve localement l'historique des calculs avec notamment :
+- Consultation des calculs enregistrés
+- Recherche instantanée
+- Filtres par date, type, total et taux
+- Favoris
+- Détails d'un calcul
+- Modification selon les droits
+- Suppression protégée
+- Export CSV
+- Export PDF
+- Rapport mensuel
+- Sauvegardes avant opérations sensibles
 
-- recherche ;
-- filtres ;
-- favoris ;
-- détails ;
-- export CSV ;
-- export PDF ;
-- rapports ;
-- statistiques.
+### Documents
 
----
+Accès rapide aux documents administratifs utiles, notamment :
 
-## Documents CNOPS / CNSS
+- Feuille de maladie CNOPS
+- Feuille de maladie CNSS
+- Ouverture manuelle
+- Impression directe
+- Copie locale de secours
+- Fonctionnement avec cache local si Internet est indisponible
 
-Une section **DOCUMENTS** permet d'accéder aux feuilles de maladie :
+### Lettres administratives
 
-- Feuille de maladie CNOPS ;
-- Feuille de maladie CNSS.
+Centre de génération de lettres avec plusieurs modèles, notamment :
 
-Les fichiers PDF sont récupérés depuis GitHub puis conservés dans un cache local.
-
-Le simple clic sur **Feuille CNOPS** ou **Feuille CNSS** ouvre uniquement la page correspondante.
-
-Le PDF n'est ouvert que lorsque l'utilisateur clique sur le bouton prévu à cet effet.
-
-### Fichiers GitHub
-
-```text
-documents/
-├── feuille_Maladie_CNOPS.pdf
-└── feuille_Maladie_CNSS.pdf
-```
-
----
-
-## Lettres administratives
-
-La section **LETTRES** permet de générer des courriers PDF A4 à partir de formulaires simples.
-
-### Modèles disponibles
-
-- Accord de prise en charge non reçu
-- Relance PEC
-- Demande de duplicata d'accord
-- Rectification de médicament
-- Rectification de quantité
-- Rectification médicament + quantité
-- Rectification des dates DU / AU
-- Rectification du montant accordé
-- Rectification Hôpital du jour
-- Rectification de l'établissement
-- Transmission de complément de dossier
-- Prolongation / prorogation
-- Annulation PEC
+- Accord non reçu
+- Relance de prise en charge
+- Duplicata d'accord
+- Rectification médicament
+- Rectification quantité
+- Médicament et quantité
+- Rectification de dates
+- Rectification de montant
+- Hôpital du jour
+- Rectification d'établissement
+- Complément de dossier
+- Prorogation
+- Annulation de prise en charge
 - Réexamen après refus
 - Demande urgente
 - Lettre personnalisée
 
-### Informations demandées
+Les lettres sont prévues pour être imprimées sur le papier pré-imprimé de la clinique. Le PDF généré reste volontairement sobre et ne rajoute pas de logo, d'en-tête, de pied de page logiciel ou de zone de cachet inutile.
 
-Selon le modèle, l'application peut demander :
+### Optimisation PC
 
-- date ;
-- organisme ;
-- numéro de prise en charge ;
-- numéro d'immatriculation ;
-- ancienne date ;
-- nouvelle date ;
-- médicament erroné ;
-- médicament correct ;
-- quantité erronée ;
-- quantité correcte ;
-- montant ;
-- motif ;
-- observation.
+Une section dédiée permet d'accéder à **Enterprise PC Optimizer Pro**, un outil Windows de diagnostic, maintenance et optimisation des postes de travail.
 
-### Impression sur papier pré-imprimé
+Fonctions disponibles selon l'outil installé :
 
-Depuis la **V5.8.7**, les lettres sont conçues pour être imprimées sur le papier officiel déjà utilisé par la clinique.
+- Diagnostic du PC
+- Analyse CPU, RAM et stockage
+- Analyse d'utilisation disque élevée
+- Nettoyage de fichiers temporaires et caches
+- Vérifications de santé Windows
+- Maintenance SSD / HDD
+- Maintenance Windows Update
+- DISM et SFC
+- Maintenance Microsoft Defender
+- Maintenance réseau
+- Points de restauration
+- Rapports techniques
+- Sauvegarde et restauration
 
-Le PDF généré n'ajoute donc pas :
+Certaines opérations système peuvent demander des droits Administrateur Windows.
 
-- de logo ;
-- d'en-tête Clinique Arrayane ;
-- de footer logiciel ;
-- de mention de version ;
-- de mention « Clinique Arrayane » en signature ;
-- de texte « Cachet et signature ».
+### Contact et assistance
 
-Le document conserve uniquement le contenu utile du courrier avec suffisamment d'espace pour l'en-tête, le pied de page et le cachet physique.
+- Accès rapide au support
+- Message prérempli
+- Informations techniques utiles
+- Aide rapide intégrée
+- FAQ et procédures de dépannage
 
----
+### Nouveautés
 
-## Contrôle distant GitHub
+La page Nouveautés affiche l'historique des versions et les changements publiés dans `releases.json`.
 
-L'application peut charger une configuration distante depuis :
+### Mise à jour
 
-```text
-remote_config.json
-```
+L'application peut :
 
-Cela permet notamment de gérer :
+- Vérifier la disponibilité d'une nouvelle version
+- Télécharger une nouvelle version officielle
+- Proposer l'installation sans demander le mot de passe Administration de l'application
+- Redémarrer après installation
+- Utiliser un emplacement utilisateur si le dossier courant est protégé par Windows
+- Conserver un journal de mise à jour pour le diagnostic
 
-- maintenance globale ;
-- verrouillage d'urgence ;
-- messages globaux ;
-- activation ou désactivation de fonctions ;
-- paramètres CNOPS ;
-- options par poste ;
-- configuration des documents ;
-- certains paramètres d'interface.
-
-> **Important :** ne jamais placer de mot de passe, clé API, information médicale ou donnée patient dans un fichier JSON public sur GitHub.
+La source technique du téléchargement n'est pas affichée dans l'interface utilisateur.
 
 ---
 
-## Branding
+## Interface
 
-Le fichier :
+L'interface est conçue pour être claire sur les postes administratifs :
 
-```text
-branding.json
-```
-
-peut être utilisé pour certaines options de personnalisation distante de l'application.
-
----
-
-## Nouveautés
-
-Les notes de version sont chargées depuis :
-
-```text
-releases.json
-```
-
-La page **Nouveautés** de l'application peut se synchroniser directement avec GitHub.
-
-Versions actuellement documentées :
-
-- V5.8.7
-- V5.8.6
-- V5.8.5
-- V5.8.4
-- V5.8.3
-- V5.8.2
-- V5.8.1
-- V5.8
-- V5.7
-- V5.6
-- V5.5
+- Thème sombre ou clair
+- Couleur principale configurable
+- Menu latéral professionnel
+- Menu latéral avec défilement
+- Logo personnalisable
+- Mode compact
+- Taille de texte configurable
+- Plein écran
+- Indicateur de page active
+- Raccourcis clavier
+- Notifications discrètes
 
 ---
 
-## Mise à jour automatique
+## Raccourcis clavier
 
-Le fichier :
+| Raccourci | Action |
+|---|---|
+| `Ctrl+1` | Accueil |
+| `Ctrl+2` | Assurances |
+| `Ctrl+3` | CNOPS |
+| `Ctrl+4` | Historique |
+| `Ctrl+5` | Contact / Support |
+| `Ctrl+6` | Aide rapide |
+| `Ctrl+7` | Administration |
+| `Ctrl+8` | Feuille CNOPS |
+| `Ctrl+9` | Feuille CNSS |
+| `Ctrl+0` | Lettres administratives |
+| `Ctrl+O` | Optimisation PC |
+| `Ctrl+U` | Mise à jour |
+| `Ctrl+Shift+R` | Nouveautés |
+| `Ctrl+N` | Nouveau calcul |
+| `Ctrl+P` | Imprimer |
+| `F5` | Actualiser |
+| `F11` | Plein écran |
+| `Échap` | Quitter le plein écran |
 
-```text
-version.json
-```
-
-indique à l'application la dernière version disponible.
-
-Exemple :
-
-```json
-{
-  "version": "5.8.7",
-  "download": "https://github.com/abdeljalilberrada/CliniqueArrayane/releases/download/v5.8.7/CliniqueArrayane.exe",
-  "notes": "Clinique Arrayane V5.8.7 PRO"
-}
-```
-
-Le fichier exécutable de la release doit être nommé :
-
-```text
-CliniqueArrayane.exe
-```
-
----
-
-## Structure recommandée du dépôt
-
-```text
-CliniqueArrayane/
-│
-├── README.md
-├── version.json
-├── releases.json
-├── remote_config.json
-├── branding.json
-│
-└── documents/
-    ├── feuille_Maladie_CNOPS.pdf
-    └── feuille_Maladie_CNSS.pdf
-```
+Les raccourcis numériques sont prévus pour les claviers AZERTY et QWERTY.
 
 ---
 
-## Données locales Windows
+## Administration
 
-Les données de l'application sont principalement stockées dans :
+L'espace Administration permet de gérer les paramètres avancés de l'application :
+
+- Identité et branding
+- Logo
+- Apparence
+- Taux CNOPS
+- Fonctions du menu
+- Historique
+- Impression
+- Support
+- Sécurité
+- Maintenance
+- Sauvegardes
+- Configuration distante
+- Diagnostic
+- Mises à jour
+
+L'accès Administration est protégé par mot de passe et peut se reverrouiller automatiquement après une période d'inactivité.
+
+---
+
+## Sécurité et confidentialité
+
+- Les calculs et données locales restent sur le poste sauf fonction explicitement distante.
+- Aucun mot de passe ou secret ne doit être stocké dans des fichiers publics.
+- Les données médicales sensibles et dossiers patients complets doivent rester dans les systèmes métier autorisés de la clinique.
+- Les identifiants techniques distants ne sont pas affichés aux utilisateurs standards.
+- Les opérations sensibles sont protégées par les droits Responsable / Administrateur lorsque nécessaire.
+- Les mises à jour de l'application restent accessibles sans communiquer le mot de passe Administrateur de Clinique Arrayane aux utilisateurs.
+
+---
+
+## Fonctionnement hors connexion
+
+La majorité des fonctions principales restent disponibles sans Internet :
+
+- Calculs
+- Historique
+- Documents déjà mis en cache
+- Lettres
+- Impression locale
+- Paramètres
+- Outils locaux déjà téléchargés
+
+Les fonctions nécessitant un téléchargement, une synchronisation distante ou une mise à jour attendent simplement le retour de la connexion.
+
+---
+
+## Données locales
+
+Les fichiers locaux de l'application sont enregistrés principalement dans :
 
 ```text
 %LOCALAPPDATA%\CliniqueArrayane
 ```
 
-Exemples :
+Ce dossier peut contenir notamment :
 
 ```text
 config.json
@@ -268,51 +258,93 @@ Historique_Calculs.csv
 Dernier_Calcul.json
 Journal_Erreurs.log
 Update.log
-remote_config_cache.json
-branding_cache.json
-releases_cache.json
 Journal_Admin.jsonl
 Diagnostic_CliniqueArrayane.txt
+Backups\
 Documents\
 Lettres\
-Backups\
+Tools\
+assets\
 ```
-
-Les informations saisies pour générer les lettres restent localement sur le poste et ne sont pas envoyées vers GitHub.
 
 ---
 
-## Environnement de développement
+## Configuration distante
 
-### Python
+L'application peut utiliser des fichiers de configuration distants afin de gérer certains paramètres sans modifier l'exécutable :
 
-Projet développé avec Python et Tkinter.
+- Maintenance globale
+- Verrouillage d'urgence
+- Messages d'information
+- Activation ou désactivation de fonctions
+- Paramètres de support
+- Taux et limites
+- Règles spécifiques à un poste
+- Branding
+- Version minimale prise en charge
 
-Testé notamment avec **Python 3.14 sous Windows**.
+En cas d'indisponibilité du service distant, l'application privilégie le fonctionnement local et le cache disponible.
 
-### Dépendances
+---
+
+## Fichiers de publication
+
+### `README.md`
+
+Description permanente du projet.  
+**Ne pas modifier ce fichier à chaque mise à jour.**
+
+### `version.json`
+
+Contient les informations nécessaires à la détection de la version actuellement publiée.
+
+Il est mis à jour lorsqu'une nouvelle version est publiée.
+
+### `releases.json`
+
+Contient l'historique visible dans la page **Nouveautés**.
+
+Il est mis à jour lorsqu'une nouvelle version doit apparaître dans l'historique.
+
+### `remote_config.json`
+
+Contient uniquement les réglages distants opérationnels. Il n'est modifié que lorsqu'un comportement distant doit changer.
+
+### `branding.json`
+
+Peut être utilisé pour certains réglages d'identité et d'apparence à distance.
+
+---
+
+## Installation
+
+L'application est distribuée sous forme d'un exécutable Windows :
+
+```text
+CliniqueArrayane.exe
+```
+
+Aucune installation Python n'est nécessaire pour l'utilisateur final.
+
+Lors d'une première installation manuelle, il suffit de placer l'exécutable dans un emplacement adapté puis de le lancer.
+
+---
+
+## Compilation développeur
+
+Dépendances principales :
 
 ```bat
 py -m pip install pillow reportlab pyinstaller
 ```
 
----
-
-## Lancer le script
+Compilation :
 
 ```bat
-py CliniqueArrayane.py
+py -m PyInstaller --clean --onefile --windowed --icon=icon.ico --add-data "icon.ico;." --name CliniqueArrayane a.py
 ```
 
----
-
-## Compiler l'application Windows
-
-```bat
-py -m PyInstaller --clean --onefile --windowed --name CliniqueArrayane CliniqueArrayane.py
-```
-
-Le fichier final sera généré dans :
+L'exécutable est généré dans :
 
 ```text
 dist\CliniqueArrayane.exe
@@ -320,54 +352,44 @@ dist\CliniqueArrayane.exe
 
 ---
 
-## Releases GitHub
-
-Pour publier une nouvelle version :
-
-1. Mettre à jour la version dans le script.
-2. Compiler `CliniqueArrayane.exe`.
-3. Créer une nouvelle **GitHub Release**.
-4. Utiliser un tag comme :
-
-```text
-v5.8.7
-```
-
-5. Ajouter :
-
-```text
-CliniqueArrayane.exe
-```
-
-6. Mettre à jour :
-
-```text
-version.json
-releases.json
-```
-
----
-
-## Sécurité et confidentialité
-
-Ce projet est destiné à un environnement clinique.
-
-Quelques règles importantes :
-
-- ne pas publier de données patients sur GitHub ;
-- ne pas placer de mots de passe dans `remote_config.json` ;
-- ne pas placer de clés privées ou tokens dans le dépôt ;
-- conserver les informations sensibles uniquement sur les postes autorisés ;
-- vérifier les documents avant impression ou transmission ;
-- effectuer régulièrement des sauvegardes.
-
----
-
 ## Compatibilité
 
-- Windows 10 / Windows 11
-- Python 3.x pour le développement
-- Version `.exe` autonome pour les postes utilisateurs
+- Windows 10 64-bit
+- Windows 11 64-bit
+
+Certaines fonctions de maintenance système peuvent demander les droits Administrateur Windows.
+
+---
+
+## Organisation du projet
+
+```text
+CliniqueArrayane/
+├── README.md
+├── version.json
+├── releases.json
+├── remote_config.json
+├── branding.json
+├── documents/
+│   ├── feuille_Maladie_CNOPS.pdf
+│   └── feuille_Maladie_CNSS.pdf
+└── Releases
+    └── CliniqueArrayane.exe
+```
+
+---
+
+## Règle de publication
+
+Pour une nouvelle version :
+
+1. Compiler `CliniqueArrayane.exe`.
+2. Publier la nouvelle version avec le bon numéro de version.
+3. Mettre à jour `version.json`.
+4. Ajouter la nouvelle entrée dans `releases.json` si elle doit apparaître dans Nouveautés.
+5. Modifier `remote_config.json` uniquement si un comportement distant doit changer.
+
+**Le README reste inchangé.**
 
 ---
 
@@ -375,17 +397,4 @@ Quelques règles importantes :
 
 **Abdeljalil Berrada**
 
-Projet : **Clinique Arrayane**
-
-Repository :
-
-```text
-https://github.com/abdeljalilberrada/CliniqueArrayane
-```
-
----
-
-## Version actuelle
-
-**Clinique Arrayane V5.8.7 PRO**  
-Build : **30/08/2026**
+Clinique Arrayane — Outils administratifs et assistance interne Windows.
